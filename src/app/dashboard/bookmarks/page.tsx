@@ -1,0 +1,1 @@
+import{BookmarkBrowser}from'@/components/bookmark-ui';export default function Page(){return <><h1 className="text-3xl font-bold">All bookmarks</h1><p className="mb-7 mt-2 text-zinc-500">Every useful link, with its context intact.</p><BookmarkBrowser/></>}

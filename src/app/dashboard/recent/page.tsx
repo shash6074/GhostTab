@@ -1,0 +1,1 @@
+import{BookmarkBrowser}from'@/components/bookmark-ui';export default function Page(){return <><h1 className="text-3xl font-bold">Recent bookmarks</h1><p className="mb-7 mt-2 text-zinc-500">Things you saved recently.</p><BookmarkBrowser initial="recent"/></>}

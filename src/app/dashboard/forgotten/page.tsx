@@ -1,0 +1,1 @@
+import{BookmarkBrowser}from'@/components/bookmark-ui';export default function Page(){return <><h1 className="text-3xl font-bold">Forgotten bookmarks</h1><p className="mb-7 mt-2 text-zinc-500">Useful links you haven&apos;t revisited recently.</p><BookmarkBrowser initial="forgotten"/></>}
